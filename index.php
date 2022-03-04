@@ -26,7 +26,7 @@
     //Exibe o QR code na tela
     $data = 'http://cardapiopasteldascoleguinhas.sistemaph.com.br/';
 
-    echo ($writer->writeString($data,'qrcode.png'));
+    echo ($writer->writeString($data));
 
     ?>
 </body>
