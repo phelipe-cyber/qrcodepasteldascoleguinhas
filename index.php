@@ -13,6 +13,7 @@
         height: 10em;
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 </style>
 
