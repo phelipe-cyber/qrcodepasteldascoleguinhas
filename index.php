@@ -9,18 +9,16 @@
 </head>
 
 <style type="text/css">
-	#imgpos {
-		position:absolute;
-		left:50%;
-		top:50%;
-		margin-left:-110px;
-		margin-top:-40px;
-		}
+    #imgpos {
+        height: 10em;
+        display: flex;
+        align-items: center;
+    }
 </style>
 
 
 <body id="imgpos">
-    
+
     <?php
 
     include 'vendor/autoload.php';
