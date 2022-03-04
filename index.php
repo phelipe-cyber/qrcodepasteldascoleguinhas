@@ -8,7 +8,18 @@
     <title>QR Code Pastel das Coleguinhas</title>
 </head>
 
-<body>
+<style type="text/css">
+	#imgpos {
+		position:absolute;
+		left:50%;
+		top:50%;
+		margin-left:-110px;
+		margin-top:-40px;
+		}
+</style>
+
+
+<body id="imgpos">
     
     <?php
 
