@@ -31,7 +31,7 @@
     use BaconQrCode\Writer;
 
     $renderer = new ImageRenderer(
-        new RendererStyle(200),
+        new RendererStyle(250),
         new SvgImageBackEnd()
     );
     $writer = new Writer($renderer);
