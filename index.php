@@ -10,11 +10,12 @@
 
 <style type="text/css">
     #imgpos {
-        height: 10em;
+        width: 100vw;
+        height: 100vh;
         display: flex;
-        align-items: center;
+        flex-direction: row;
         justify-content: center;
-        margin: 0;
+        align-items: center;
     }
 </style>
 
