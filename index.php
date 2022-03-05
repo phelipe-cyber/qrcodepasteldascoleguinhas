@@ -59,7 +59,7 @@
 
                         ?></div>
     </php>
-    ?><div class="row"><?php
+    <div class="row"><?php
 
                         echo ($writer->writeString($data));
                         echo ($writer->writeString($data));
