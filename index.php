@@ -39,12 +39,22 @@
     $writer = new Writer($renderer);
     //Exibe o QR code na tela
     $data = 'http://cardapiopasteldascoleguinhas.sistemaph.com.br/';
+?><div class="row"><?php
 
     echo ($writer->writeString($data));
     echo ($writer->writeString($data));
     echo ($writer->writeString($data));
     echo ($writer->writeString($data));
+  
+?></div></php>
+?><div class="row"><?php
+
     echo ($writer->writeString($data));
+    echo ($writer->writeString($data));
+    echo ($writer->writeString($data));
+    echo ($writer->writeString($data));
+  
+?></div></php>
 
     ?>
 </body>
