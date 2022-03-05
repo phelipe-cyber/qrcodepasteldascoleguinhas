@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Code Pastel das Coleguinhas</title>
-    <link rel="shortcut icon"  href="image/icon.ico">
+    <link rel="shortcut icon" href="image/icon.ico">
 </head>
 
 <style type="text/css">
@@ -39,24 +39,27 @@
     $writer = new Writer($renderer);
     //Exibe o QR code na tela
     $data = 'http://cardapiopasteldascoleguinhas.sistemaph.com.br/';
-?><div class="row"><?php
 
-    echo ($writer->writeString($data));
-    echo ($writer->writeString($data));
-    echo ($writer->writeString($data));
-    echo ($writer->writeString($data));
-  
-?></div></php>
-?><div class="row"><?php
+    ?><div class="row"><?php
 
-    echo ($writer->writeString($data));
-    echo ($writer->writeString($data));
-    echo ($writer->writeString($data));
-    echo ($writer->writeString($data));
-  
-?></div></php>
+                        echo ($writer->writeString($data));
+                        echo ($writer->writeString($data));
+                        echo ($writer->writeString($data));
+                        echo ($writer->writeString($data));
 
-    ?>
+                        ?></div>
+    </php>
+
+    <div class="row"><?php
+
+                        echo ($writer->writeString($data));
+                        echo ($writer->writeString($data));
+                        echo ($writer->writeString($data));
+                        echo ($writer->writeString($data));
+
+                        ?></div>
+    </php>
+
 </body>
 
 </html>
