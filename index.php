@@ -41,6 +41,10 @@
     $data = 'http://cardapiopasteldascoleguinhas.sistemaph.com.br/';
 
     echo ($writer->writeString($data));
+    echo ($writer->writeString($data));
+    echo ($writer->writeString($data));
+    echo ($writer->writeString($data));
+    echo ($writer->writeString($data));
 
     ?>
 </body>
